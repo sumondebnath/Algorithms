@@ -3,10 +3,10 @@ using namespace std;
 
 void divide(int arr[], int left, int right){
 
-    for(int i=left; i<=right; i++){
-        cout<<arr[i]<<" ";
-    }
-    cout<<endl;
+    // for(int i=left; i<=right; i++){
+    //     cout<<arr[i]<<" ";
+    // }
+    // cout<<endl;
 
     if(left < right){
         int mid = (left + right) / 2;
