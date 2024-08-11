@@ -1,3 +1,8 @@
+/*
+    Time Complexity : O(N^2).
+*/
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -17,6 +22,9 @@ int main(){
             }
         }
         swap(arr[i], arr[minn]);
+        // int temp = arr[i];
+        // arr[i] = arr[minn];
+        // arr[minn] = temp;
     }
 
     for(int i=0; i<n; i++){
