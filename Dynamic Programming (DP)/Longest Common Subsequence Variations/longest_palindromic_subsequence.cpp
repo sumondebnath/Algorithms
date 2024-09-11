@@ -8,8 +8,10 @@ using namespace std;
 int main()
 {
 
-    string a, b;
-    cin >> a >> b;
+    string a;
+    cin >> a;
+    string b = a;
+    reverse(b.begin(), b.end());
 
     int dp[a.size() + 1][b.size() + 1];
 
